@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+.grad1 {
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0ee5c5), color-stop(1, #0090ff));
+/*
+   background: -webkit-linear-gradient(to left bottom, #0ee5c5, #0090ff);
+    background: linear-gradient(to left bottom, #0ee5c5, #0090ff);
+*/
+}
+.downloadButton {
+    text-align: center;
+    background-color: #e58510;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.centerButton {
+    text-align: center;
+}
+/* Darker background on mouse-over */
+.downloadButton:hover {
+    background-color: #fffb00;
+    color: black;
+}
